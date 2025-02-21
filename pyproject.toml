@@ -14,6 +14,7 @@ polars = "^1.12.0"
 ipywidgets = "^8.1.5"
 numba = "^0.60.0"
 gymnasium = "^1.0.0"
+pydantic = "^2.10.6"
 
 
 [tool.poetry.group.dev.dependencies]
