@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "forex"
+version = "0.1.0"
+description = ""
+authors = ["hamashousf <hamashou.jf@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+MetaTrader5 = "^5.0.4424"
+numpy = "<2.0.0"
+scipy = "^1.14.1"
+polars = "^1.12.0"
+ipywidgets = "^8.1.5"
+numba = "^0.60.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pandas = "^2.2.3"
+yfinance = "^0.2.48"
+matplotlib = "^3.9.2"
+mplfinance = "^0.12.10b0"
+seaborn = "^0.13.2"
+tqdm = "^4.67.0"
+ta-lib = "^0.4.32"
+openpyxl = "^3.1.5"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
